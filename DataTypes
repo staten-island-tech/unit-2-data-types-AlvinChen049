@@ -1,4 +1,4 @@
-#Data Types
+""" #Data Types
 #Numbers 1,2,3
 def add(x,y):
     print(x + y)
@@ -20,3 +20,20 @@ def is_tenured(status):
     else:
         print("They are not tenured")
 is_tenured(tenure)
+ """
+#float makes the number a decimal
+""" x = 3
+y = float(3)
+print(x,y) """
+
+""" values = [1,2.23,5,7,2,30,15]
+print(values)
+for i in values:
+    print(i) """
+
+input = 22
+day_of_week = input("Even or Odd?")
+if day_of_week == [0,2,4,6,8]:
+    print("Even")
+else:
+    print("Odd")
