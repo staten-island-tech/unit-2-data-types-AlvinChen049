@@ -31,9 +31,3 @@ print(values)
 for i in values:
     print(i) """
 
-input = 22
-day_of_week = input("Even or Odd?")
-if day_of_week == [0,2,4,6,8]:
-    print("Even")
-else:
-    print("Odd")
