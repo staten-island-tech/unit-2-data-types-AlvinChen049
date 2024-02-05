@@ -31,6 +31,17 @@ print(values)
 for i in values:
     print(i) """
 
-x = "Derek has a skill issue"
+
+#Challenge 1 - enter a sentence below
+""" x = "Goodbye world"
 words_list = x.split(" ")
-print (len(words_list)) 
+print (len(words_list))  """
+
+#imput number below
+numbers = ["1"]
+    
+for number in numbers:
+    if (number == "2","4","6","8"):
+     print("The Number is Even")
+    else:
+     print("The Number is Odd")
