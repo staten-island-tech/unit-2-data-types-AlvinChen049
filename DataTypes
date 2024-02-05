@@ -31,3 +31,6 @@ print(values)
 for i in values:
     print(i) """
 
+x = "Derek has a skill issue"
+words_list = x.split(" ")
+print (len(words_list)) 
