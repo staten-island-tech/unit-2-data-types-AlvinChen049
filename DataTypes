@@ -38,7 +38,7 @@ words_list = x.split(" ")
 print (len(words_list))  """
 
 #imput number below
-numbers = ["1"]
+numbers = ["45"]
     
 for number in numbers:
     if (number == "2","4","6","8"):
