@@ -3,3 +3,9 @@ tip = (input ("How was the service? "))
 
 if (tip == "bad"):
  print (f"your total is {bill}")
+elif (tip == "okay"):
+ print (f"your total is {bill}")
+elif (tip == "good"):
+ print (f"your total is {bill}")
+elif (tip == "great"):
+ print (f"your total is {bill}")
