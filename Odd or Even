@@ -1,8 +1,7 @@
 #imput number below
 numbers = int(input("number"))
 
-for number in numbers:
-    if (number % 2) == 0:
-     print("Even")
-    else:
+if (numbers % 2) == 0:
+    print("Even")
+else:
      print("Odd")

@@ -1,0 +1,5 @@
+bill = float(input("Bill is "))
+tip = (input ("How was the service? "))
+
+if (tip == "bad"):
+ print (f"your total is {bill}")
