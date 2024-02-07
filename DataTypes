@@ -52,11 +52,6 @@ else:
     print('cold')
  """
 
-#imput number below
-numbers = "2"
 
-for number in numbers:
-    if (number % 2) is int:
-     print("The Number is Even")
-    else:
-     print("The Number is Odd")
+
+
