@@ -4,8 +4,8 @@ tip = (input ("How was the service? "))
 if (tip == "bad"):
  print (f"your total is {bill}")
 elif (tip == "okay"):
- print (f"your total is {bill}")
+ print (f"your total is {bill * 1.15}")
 elif (tip == "good"):
- print (f"your total is {bill}")
+ print (f"your total is {bill * 1.20}")
 elif (tip == "great"):
- print (f"your total is {bill}")
+ print (f"your total is {bill * 1.25}")
