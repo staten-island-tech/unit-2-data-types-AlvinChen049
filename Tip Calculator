@@ -1,7 +1,7 @@
 #bill
-x = float(45.18)
+x = float()
 #tip
-y = int(6)
+y = int()
 z = (x+y)
 print (f"your total is {z}")
 

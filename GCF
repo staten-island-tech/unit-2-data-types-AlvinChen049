@@ -1,11 +1,13 @@
+import math
+
+def GCF_of_numbers(x):
+ print("The GCF of",x,"are:")
+ for i in range(1, x + 1):
+   if x % i == 0:
+     print(i)
 numberone = int(input("Imput Whole Number 1: "))
+
 numbertwo = int(input("Imput Whole Number 2: "))
 
-def GCF_of_numbers(x,y):
- print("The GCF of", numberone, "and", numbertwo, "are:")
- for i in range(1, x + 1):
-  for i in range(1, y + 1):
-   if x and y % i == 0:
-     print(i)
-
-GCF_of_numbers(numberone and numbertwo)
+GCF_of_numbers = (math.gcd(numberone, numbertwo))
+print("The GCF of", numberone, "and", numbertwo, "is:", GCF_of_numbers)
