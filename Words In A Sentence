@@ -1,0 +1,4 @@
+#Challenge 1 - enter a sentence below
+x = (input("Imput Sentence: "))
+words_list = x.split(" ")
+print (len(words_list)) 

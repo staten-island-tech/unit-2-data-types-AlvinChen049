@@ -32,10 +32,6 @@ for i in values:
     print(i) """
 
 
-#Challenge 1 - enter a sentence below
-""" x = "Goodbye world"
-words_list = x.split(" ")
-print (len(words_list))  """
 
 """ day_of_week = "Monday"
 if (day_of_week == "Friday"):

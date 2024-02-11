@@ -1,9 +1,5 @@
-#bill
-x = float()
-#tip
-y = int()
-z = (x+y)
-print (f"your total is {z}")
+Bill = float(input("Bill = "))
+Tip = int(input("Tip = "))
 
-
-
+Total = (Bill + Tip)
+print (f"Your total is {Total}")
