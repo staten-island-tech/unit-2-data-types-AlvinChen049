@@ -1,13 +1,19 @@
-import math
+GCF_list1 = []
+GCF_list2 = []
 
 def GCF_of_numbers(x):
- print("The GCF of",x,"are:")
  for i in range(1, x + 1):
    if x % i == 0:
      print(i)
 numberone = int(input("Imput Whole Number 1: "))
-
+GCF_of_numbers(numberone)
+GCF_list1.append(GCF_of_numbers)
 numbertwo = int(input("Imput Whole Number 2: "))
-
-GCF_of_numbers = (math.gcd(numberone, numbertwo))
-print("The GCF of", numberone, "and", numbertwo, "is:", GCF_of_numbers)
+GCF_of_numbers(numbertwo)
+GCF_list2.append(GCF_of_numbers)
+GCF_list1.extend(GCF_list2)
+max_value = max(GCF_list1)
+min_value = min(GCF_list1)
+print("Maximum value:", max_value)
+print("Minimum value:", min_value)
+print("The GCF of", numberone, "and", numbertwo, "is:", GCF_list1)
