@@ -3,10 +3,23 @@ def GCF_of_numbers(numberone, numbertwo):
         return numberone
     else:
         return GCF_of_numbers(numbertwo, numberone % numbertwo)
- 
+
 numberone = int(input("Imput Whole Number 1: "))
+def factors_of_number(x):
+ print("The factors of", numberone, "are:")
+ for i in range(1, x + 1):
+  if x % i == 0:
+   print(i)
+
+factors_of_number(numberone)
 numbertwo = int(input("Imput Whole Number 2: "))
-        
+def factors_of_number(x):
+ print("The factors of", numbertwo, "are:")
+ for i in range(1, x + 1):
+  if x % i == 0:
+   print(i)
+
+factors_of_number(numbertwo)
 
 print("The GCF of", numberone, "and", numbertwo, "is: ")
 print(GCF_of_numbers(numberone, numbertwo))
