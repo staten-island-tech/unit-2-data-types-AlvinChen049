@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """ def GCF_of_numbers(x):
  print("The GCF of",x,"are:")
  for i in range(1, x + 1):
@@ -22,3 +23,19 @@ numbertwo = int(input("Imput Whole Number 2: "))
 
 print("The GCF of", numberone, "and", numbertwo, "is: ")
 print(GCF_of_numbers(numberone, numbertwo))
+=======
+def GCF_of_numbers(numberone, numbertwo):
+    if(numbertwo == 0):
+        return numberone
+    else:
+        return GCF_of_numbers(numbertwo, numberone % numbertwo)
+ 
+numberone = int(input("Imput Whole Number 1: "))
+numbertwo = int(input("Imput Whole Number 2: "))
+        
+
+print("The GCF of", numberone, "and", numbertwo, "is: ")
+print(GCF_of_numbers(numberone, numbertwo))
+
+
+>>>>>>> 7b61365b1374a4cd23e8aab9978d1742ebe8f3f4
